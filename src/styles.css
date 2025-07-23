@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+span {
+  animation: hideAndShow 0.5s infinite;
+  color: red;
+}
+h2 {
+  color: gold;
+}
+
+@keyframes hideAndShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
